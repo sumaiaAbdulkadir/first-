@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+/* .container{
+  
+} */
+.header{
+    padding: 45px 70px;
+    background-color: white;
+  
+}
+.logo{
+
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+ 
+
+}
+.logo span{
+    color: rgb(175, 142, 98);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  
+
+
+.nav ul{
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+   left: 690px;
+    font-size: 1.8em;
+}
+.nav ul li {
+    margin-left: 35px;
+}
+.nav ul li a{
+   
+    text-decoration: none;
+  color: rgb(46, 44, 44);
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+  color:#ccc;
+  }
+
+.btn{
+    position: absolute;
+   right: 100px;
+    /* margin-left: 40px; */
+    padding-top: 6px;
+  }
+
+  .order{
+    margin-right: 20px;
+    background-color: rgb(175, 142, 98);
+    color: white;
+    width: 130px;
+    height: 70px;
+    font-size: large;
+    border: 1px solid rgb(175, 142, 98);
+   
+  }
+  .Sign{
+    
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 142, 98);
+    width: 130px;
+    height: 70px;
+    font-size: large;
+    border: 2px solid rgb(175, 142, 98);
+   
+  }
+
+  /* section two */
+
+  .main{
+    background-color: rgb(250, 242, 231);
+    width: 100%;
+    height: 950px;
+  }
+  .main h1{
+    text-align: center;
+   
+    font-size: 6em;
+    padding-top: 70px;
+    animation-name:rightAnimation ;
+  animation-duration: 5s;
+  }
+.main h4{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5em;
+    animation-name:rightAnimation ;
+  animation-duration: 5s;
+}
+.main .image {
+    background-image: url(robert-bye-F2eHfMwIOxA-unsplash-1200x400\ \(1\).jpg);
+    background-size: cover; /* This will make the background image cover the entire container */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 86%;
+    margin-left: 115px;
+    margin-top: 40px;
+    animation-name:LeftAnimation ;
+  animation-duration: 5s;
+}
+
+.info h3{
+    padding-top: 25px;
+    margin-left: 115px;
+    font-size: 2.3em;
+    animation-name:rightAnimation ;
+  animation-duration: 5s;
+
+}
+.info h5{
+    color: grey;
+    width: 86%;
+    margin-left: 115px;
+    font-size: 1em;
+    padding-top: 10px;
+    animation-name:rightAnimation ;
+  animation-duration: 5s;
+}
+
+/* menuPart */
+    .menuPart {
+        height: 900px;
+        padding-top: 110px;
+       
+       
+       
+    }
+
+   .menuPart .img{
+    position: relative;
+    left: 130px;
+    background-image: url(BB1pb4BZ.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 240px;
+    width: 17%;
+    margin-top: 10px;
+   
+}
+       
+   
+
+    .informationPart {
+      position: absolute;
+       /* padding-bottom: 50px; */
+       left: 490px;
+       padding-top: 40px;
+       
+    }
+    .informationPart h4{
+      font-size: 4.5em;
+      
+    }
+    .informationPart h5{
+      color: grey;
+    width: 86%;
+    font-size: 1em;
+    padding-top: 5px;
+    }
+    hr {
+      width: 84%;
+      margin-left: 8%;
+      margin-right: 8%;
+      border: 0;
+      border-top: 1px solid #000; /* Add a border to create the line effect */
+      padding-top: 20px;
+  }
+ /*menu part two  */
+
+ .menuPart2 {
+ 
+  padding-top: 90px;
+  animation-name:rightAnimation ;
+  animation-duration: 5s;
+  
+     
+ 
+ 
+}
+@keyframes rightAnimation{
+  from{
+    transform: translateX(-100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.menuPart2 .img{
+position: relative;
+left: 130px;
+background-image: url(WhatsApp\ Image\ 2024-07-25\ at\ 22.43.47_00094cda.jpg);
+background-size: cover; /* This will make the background image cover the entire container */
+background-repeat: no-repeat;
+background-position: center;
+height: 240px;
+width: 17%;
+margin-top: 10px;
+}
+ 
+
+
+.informationPart2 {
+position: absolute;
+ padding-bottom: 50px;
+ left: 490px;
+ padding-top: 40px;
+ 
+}
+.informationPart2 h4{
+font-size: 4.5em;
+
+}
+.informationPart2 h5{
+color: grey;
+width: 86%;
+font-size: 1em;
+padding-top: 15px;
+}
+hr{
+width:84%;
+margin-left: 135px;
+padding-top: 20px;
+
+}
+.btn2{
+  position: absolute;
+ left: 850px;
+  /* margin-left: 40px; */
+  padding-top: 60px;
+}
+.learnmore{
+  background-color: rgb(255, 255, 255);
+    color: rgb(175, 142, 98);
+    width: 160px;
+    height: 60px;
+    font-size: large;
+    border: 2px solid rgb(175, 142, 98);
+}
+
+.menuPart3 {
+ 
+  padding-top: 90px;
+  animation-name:LeftAnimation ;
+  animation-duration: 5s;
+  
+ 
+}
+@keyframes LeftAnimation{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.menuPart3 .img{
+position: relative;
+left: 130px;
+background-image: url(WhatsApp\ Image\ 2024-07-25\ at\ 22.56.50_a20d1bbc.jpg);
+background-size: cover; /* This will make the background image cover the entire container */
+background-repeat: no-repeat;
+background-position: center;
+height: 240px;
+width: 17%;
+margin-top: 10px;
+
+}
+
+
+.menuPart4 {
+ 
+  padding-top: 90px;
+  animation-name:rightAnimation ;
+  animation-duration: 5s;
+     
+ 
+ 
+}
+
+.menuPart4 .img{
+position: relative;
+left: 130px;
+background-image: url(man.jpg);
+background-size: cover; /* This will make the background image cover the entire container */
+background-repeat: no-repeat;
+background-position: center;
+height: 240px;
+width: 17%;
+margin-top: 10px;
+}
+
+.menuPart5 {
+ 
+  padding-top: 90px;
+  animation-name:LeftAnimation ;
+  animation-duration: 5s;
+ 
+ 
+}
+
+
+.menuPart5 .img{
+position: relative;
+left: 130px;
+background-image: url(WhatsApp\ Image\ 2024-07-25\ at\ 23.05.06_4748ccff.jpg);
+background-size: cover; /* This will make the background image cover the entire container */
+background-repeat: no-repeat;
+background-position: center;
+height: 240px;
+width: 17%;
+margin-top: 10px;
+}
+.ourLocation{
+  margin-top: 62%;
+  width: 100%;
+  height: 650px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+ 
+}
+.locationInfo h1{
+  font-size: 5em;
+
+}
+.locationInfo h3{
+  padding-top: 30px;
+  font-size: 1.5em;
+  
+}
+.locationInfo hr{
+
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 0;
+    border-top: 1px solid  white;
+    margin-top: 40px;
+}
+.icons{
+  position: absolute;
+  left: 130px;
+  padding-top: 15px;
+}
+.icons i {
+  margin-left: 30px;
+  font-size: 2em;
+}
+.ourLocation p{
+  color: rgb(175, 142, 98);
+  font-size: 1.5em;
+  padding-top: 140px;
+  margin-right: 60%
+}
+.ourLocation h4{
+  color: rgb(175, 142, 98);
+  font-size: 1.5em;
+  /* padding-top: 140px; */
+  margin-left: 60%
+}
